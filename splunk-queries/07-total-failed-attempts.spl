@@ -1,0 +1,2 @@
+index=linux_auth "Failed password"
+| stats count as total_failed_ssh_attempts

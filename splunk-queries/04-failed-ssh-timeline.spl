@@ -1,0 +1,2 @@
+index=linux_auth "Failed password"
+| timechart span=5m count as failed_attempts

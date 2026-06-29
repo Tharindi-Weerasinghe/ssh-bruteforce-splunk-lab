@@ -1,0 +1,6 @@
+index=linux_auth "Failed password"
+| rex "Failed password for (invalid user )?(?<username>\S+) from (?<src_ip>\d+\.\d+\.\d+\.\d+)"
+| bin _time span=5m
+| stats count as failed_attempts values(username) as usernames by _time src_ip
+| where failed_attempts >= 3
+| sort - failed_attempts
