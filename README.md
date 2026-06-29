@@ -159,6 +159,10 @@ SSH Brute Force Monitoring Dashboard
 
 ## Screenshots
 
+### Ubuntu IP Address
+
+![Ubuntu IP Address](screenshots/01-ubuntu-ip.png)
+
 ### Kali to Ubuntu Connectivity Test
 
 ![Kali Ping Ubuntu](screenshots/02-kali-ping-ubuntu.png)
