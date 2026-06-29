@@ -271,4 +271,5 @@ Possible future improvements include:
 
 ## Disclaimer
 
-This project was performed only inside a personal local virtual lab environment. The attack simulation was done against machines owned and controlled by the student. This project is for educational and defensive cybersecurity learning purposes only.
+This lab was conducted in a controlled local virtual environment using only systems owned and configured for educational purposes. All testing was performed safely to demonstrate defensive security monitoring, detection engineering, and SOC analysis skills.
+
